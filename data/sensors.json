@@ -1,0 +1,208 @@
+[
+  {
+    "sensorID": 1,
+    "status": 0
+  },
+  {
+    "sensorID": 2,
+    "status": 0
+  },
+  {
+    "sensorID": 3,
+    "status": 0
+  },
+  {
+    "sensorID": 4,
+    "status": 1
+  },
+  {
+    "sensorID": 5,
+    "status": 0
+  },
+  {
+    "sensorID": 6,
+    "status": 2,
+    "log": [
+      {
+        "date": "2/1/2016",
+        "temp_ext": 30,
+        "temp_int": 45
+      },
+      {
+        "date": "2/2/2016",
+        "temp_ext": 30,
+        "temp_int": 45
+      },
+      {
+        "date": "2/3/2016",
+        "temp_ext": 30,
+        "temp_int": 45
+      },
+      {
+        "date": "2/4/2016",
+        "temp_ext": 30,
+        "temp_int": 45
+      }
+    ]
+  },
+  {
+    "sensorID": 7,
+    "status": 2
+  },
+  {
+    "sensorID": 8,
+    "status": 0
+  },
+  {
+    "sensorID": 9,
+    "status": 0
+  },
+  {
+    "sensorID": 10,
+    "status": 0
+  },
+  {
+    "sensorID": 11,
+    "status": 0
+  },
+  {
+    "sensorID": 12,
+    "status": 0
+  },
+  {
+    "sensorID": 13,
+    "status": 1
+  },
+  {
+    "sensorID": 14,
+    "status": 1
+  },
+  {
+    "sensorID": 15,
+    "status": 1
+  },
+  {
+    "sensorID": 16,
+    "status": 2
+  },
+  {
+    "sensorID": 17,
+    "status": 2
+  },
+  {
+    "sensorID": 18,
+    "status": 0
+  },
+  {
+    "sensorID": 19,
+    "status": 0
+  },
+  {
+    "sensorID": 20,
+    "status": 0
+  },
+  {
+    "sensorID": 21,
+    "status": 0
+  },
+  {
+    "sensorID": 22,
+    "status": 0
+  },
+  {
+    "sensorID": 23,
+    "status": 2
+  },
+  {
+    "sensorID": 24,
+    "status": 0
+  },
+  {
+    "sensorID": 25,
+    "status": 2
+  },
+  {
+    "sensorID": 26,
+    "status": 0
+  },
+  {
+    "sensorID": 27,
+    "status": 2
+  },
+  {
+    "sensorID": 28,
+    "status": 1
+  },
+  {
+    "sensorID": 29,
+    "status": 1
+  },
+  {
+    "sensorID": 30,
+    "status": 0
+  },
+  {
+    "sensorID": 31,
+    "status": 0
+  },
+  {
+    "sensorID": 32,
+    "status": 0
+  },
+  {
+    "sensorID": 33,
+    "status": 0
+  },
+  {
+    "sensorID": 34,
+    "status": 1
+  },
+  {
+    "sensorID": 35,
+    "status": 0
+  },
+  {
+    "sensorID": 36,
+    "status": 0
+  },
+  {
+    "sensorID": 37,
+    "status": 0
+  },
+  {
+    "sensorID": 38,
+    "status": 0
+  },
+  {
+    "sensorID": 39,
+    "status": 2
+  },
+  {
+    "sensorID": 40,
+    "status": 1
+  },
+  {
+    "sensorID": 41,
+    "status": 2
+  },
+  {
+    "sensorID": 42,
+    "status": 0
+  },
+  {
+    "sensorID": 43,
+    "status": 0
+  },
+  {
+    "sensorID": 44,
+    "status": 1
+  },
+  {
+    "sensorID": 45,
+    "status": 1
+  },
+  {
+    "sensorID": 46,
+    "status": 0
+  }
+]
