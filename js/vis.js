@@ -19,13 +19,14 @@ var init = function(){
 		getData:function(_callback){
 			var self = vis;
 
-			//d3.csv('data/sensors.csv',function(e,d){
-			d3.json('data/sensors.json',function(e,d){
+			d3.csv('data/sensors.csv',function(e,d){
+			//d3.json('data/sensors.json',function(e,d){
 				self.data_raw = d;
 
 				_callback();
 			});
 		},
+		
 		processData:function(){
 			var self = vis;
 
@@ -34,6 +35,7 @@ var init = function(){
 				obj.idx = i;
 				obj.sensorID = d.sensorID;
 				obj.status = parseInt(d.status);
+				obj.userID = d.userID
 
 				//current hack for dummy data
 				if(d.log){
@@ -52,6 +54,8 @@ var init = function(){
 
 			self.generate();
 		},
+		
+		
 		generate:function(){
 			var self = vis;
 
@@ -140,7 +144,7 @@ var init = function(){
 				})
 				.duration(300)
 				.style('fill',function(d){
-					return self.colors[d.status];
+					return d3.rgb(0, [d.status], 0);
 				});
 			squares.exit().remove();
 
@@ -153,7 +157,7 @@ var init = function(){
 				.attr('x',gridSize/2)
 				.attr('y',gridSize/2 +7)
 				.text(function(d){
-					return d.sensorID;
+					return [parseInt(d.sensorID), parseInt(d.userID)];
 				})
 				.transition()
 				.delay(function(d){
